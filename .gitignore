@@ -1,0 +1,40 @@
+# Arquivos de backup
+*~
+
+# Cache do Webots
+cache/
+build/
+build-*/
+
+# Arquivos gerados
+*.wbt.bak
+*.wbo.bak
+*.class
+*.pyc
+*.o
+*.so
+*.dll
+*.exe
+*.log
+
+# Diretórios temporários
+tmp/
+logs/
+controllers/**/Makefile
+controllers/**/CMakeFiles/
+controllers/**/CMakeCache.txt
+controllers/**/cmake_install.cmake
+
+# Webots config local
+config/
+*.autosave
+*.DS_Store
+
+# VSCode (opcional, se usar)
+.vscode/
+
+# Webots workspace exportado
+*.wproj
+
+# Arquivos de simulação salvos automaticamente
+*.wbt.autosave
